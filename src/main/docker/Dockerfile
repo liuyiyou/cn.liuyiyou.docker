@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM freshworks/oraclejdk8
 MAINTAINER liuyiyou <admin@liuyiyou.cn>
 VOLUME /tmp
 ADD cn.liuyiyou.docker-0.0.1-SNAPSHOT.jar app.jar
